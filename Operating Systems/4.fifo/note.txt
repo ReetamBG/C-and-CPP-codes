@@ -1,0 +1,13 @@
+FIRST IN FIRST OUT
+
+# mkfifo is used to make a special first in first out file, called pipe which is used to communicate between different proesses
+# The sender and reciever will communicate through a unique file called fifo which acts as a buffer
+# Both the sender and reciever must run together for this to work
+# As soon as both the sender and reciever starts running simulatneously (in different terminals) their code starts executing 
+# NOTE - the fifo file has to be created freshly for every execution
+
+Assignment
+Make a two processes that will communicate with each other
+One file will act as the sender and the other as a reciever, in the next turn the other file will act as the sender and the reciever as the sender
+Basically like a chat system with only one message from each side untill response from other side
+NOTE - Do not use sleep or wait 

@@ -1,0 +1,5 @@
+MESSAGE QUEUE
+
+# Makes a queue data structure through which two seperate processes (not necessarily child and parent) can communicate with each other
+# Running the sender will make a queue and store the message in a buffer
+# Running the child after that (sender need not be active) will recieve the message from the queue

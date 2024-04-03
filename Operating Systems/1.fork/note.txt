@@ -1,0 +1,6 @@
+FORK
+
+# Used to create a child process from the current process
+# Normally the parent process is executed first but
+# We can see that if we put to sleep the parent process then the child process runs first ... this shows that the CPU does not keep waiting for a process
+# As soon as the child finishes its execution the parent process is executed
